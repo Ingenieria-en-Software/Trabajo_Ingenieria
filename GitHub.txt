@@ -1,0 +1,26 @@
+al ocupalor por primera vez utilizar estos comandos
+git config --global user.name "felipepipe"
+
+git config --global user.email felipepipe21@hotmail.com
+
+crear una carpeta para nuestro proyecto
+mkdir ejemplo e ir a esta con (cd)
+
+inizializar un proyecto 
+git init
+
+cargar cambios(cree un documento en la carpeta del proyecto)
+git add --all
+
+git status(podremos ver que se agrego el nuevo documento)
+
+agreagar un commit(el cambio del archivo creado)
+git commit -m "archivo nuevo"
+
+git log (muestra los commit echos)
+
+para agregarlo a nuestro servidor
+git remote add origin https://github.com/felipepipe/ejemplo.git
+
+y terminamos subiendo el archivo
+git push -u origin master(si no hay ningun problema solo te pedira el user name y password) 
